@@ -6,7 +6,7 @@ function Blog() {
   return (
     <React.Fragment>
       <Navbar/>
-      <h1>Blog</h1>
+      <h1>Blog emo</h1>
     </React.Fragment>
   );
 }
