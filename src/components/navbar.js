@@ -15,11 +15,11 @@ function Navbar() {
         <div id="navbar" className="navbar-menu">
           <div className="navbar-end">
             <Link className="navbar-item" to="/">
-              Home
+                    Home
             </Link>
-            <Link className="navbar-item" to="/about/">
+            <Link   className="navbar-item" to="/about/">
               Über mich
-            </Link>
+            </Link >
             <Link className="navbar-item" to="/blog/">
               Blog
             </Link>

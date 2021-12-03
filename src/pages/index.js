@@ -30,7 +30,7 @@ function Index() {
               />
             </div>
           </div>
-        </div>
+        </div>p
       </section>
     </React.Fragment>
   );
