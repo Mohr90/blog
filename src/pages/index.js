@@ -9,6 +9,7 @@ function Index() {
   return (
     <React.Fragment>
       <Navbar />
+      <div className="main-content">
       <section className="section">
         <div className="columns">
           <div className="column">
@@ -69,8 +70,8 @@ function Index() {
           </div>
         </div>
       </section>
+      </div>
       <Footer>
-
       </Footer>
     </React.Fragment>
   );
