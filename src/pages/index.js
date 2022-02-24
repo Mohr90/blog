@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/styles.scss";
 import Navbar from "../components/navbar";
-import Bild_1 from "../images/bild1.png";
 import Tile from "../components/tile";
 import Footer from "../components/footer";
+import { StaticImage } from "gatsby-plugin-image";
 
 function Index() {
   return (
@@ -26,8 +26,8 @@ function Index() {
 
           <div className="column">
             <div className="is-flex is-justify-content-center">
-              <img
-                src={Bild_1}
+              <StaticImage
+                src="../images/bild1.png"
                 alt={"Web-development"}
                 width={1904 / 4}
                 height={1904 / 4}
@@ -59,8 +59,8 @@ function Index() {
               title="Webentwicklung" 
               subtitle="Mit einem Bild" 
               >
-                 <img
-                src={Bild_1}
+                 <StaticImage
+                src="../images/bild1.png"
                 alt={"Web-development"}
                 width={1904 / 4}
                 height={1904 / 4}
