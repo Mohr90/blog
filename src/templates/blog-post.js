@@ -10,10 +10,14 @@ function BlogPost({ data }) {
     return(
         <React.Fragment>
             <Navbar></Navbar>
-            <div className="container main-content">
-                <h1 className="title is-1">
+            <div className="section main-content">
+                <div className="hero is-medium">
+                <div className="hero-body">
+                    <h1 className="title is-1 has-text-centered">
                     {post.frontmatter.title}
-                </h1>
+                    </h1>
+                </div>
+                </div>
                 <small>
                     {post.frontmatter.date}
                 </small>
